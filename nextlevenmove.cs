@@ -20,7 +20,7 @@ public class nextlevenmove : MonoBehaviour
 
         while (!asyncOperation.isDone)
         {
-            if (slider.value >= 0.9f)
+            if (asyncOperation.progress >= 0.9f)
             {
                 slider.value = 1;
             }
